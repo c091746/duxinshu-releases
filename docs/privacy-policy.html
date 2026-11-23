@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>讀欣樹（DuXinShu Reader）隱私權政策 | Privacy Policy</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif; line-height: 1.78; color: #1F2D24; background: #F5F8F5; margin: 0; padding: 32px 16px; }
+    .card { max-width: 840px; margin: 0 auto; background: #FFFFFF; border-radius: 18px; padding: 36px 28px; box-shadow: 0 8px 28px rgba(20, 45, 30, 0.07); border: 1px solid #DDE6DF; }
+    h1 { color: #1D4E36; margin-top: 0; font-size: 1.65rem; }
+    h2 { color: #265C42; margin-top: 28px; font-size: 1.18rem; border-bottom: 1px solid #E5EDE7; padding-bottom: 6px; }
+    p, li { font-size: 0.96rem; color: #2F3E35; }
+    .meta { color: #5F7266; font-size: 0.88rem; margin-bottom: 20px; }
+    .nav { margin-bottom: 18px; font-size: 0.9rem; }
+    .nav a { margin-right: 14px; font-weight: 600; text-decoration: none; }
+    .nav a:hover { text-decoration: underline; }
+    a { color: #1D6A46; }
+    code { background: #EEF4F0; padding: 2px 6px; border-radius: 5px; font-size: 0.9em; }
+    .footer { margin-top: 32px; padding-top: 16px; border-top: 1px solid #E5EDE7; font-size: 0.86rem; color: #5F7266; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="nav">
+      <a href="./index.html">← 返回《讀欣樹》首頁</a>
+      <a href="./terms.html">服務條款與免責聲明</a>
+    </div>
+
+    <h1>《讀欣樹》隱私權政策（Privacy Policy）</h1>
+    <div class="meta">生效與最後更新日期：2026 年 11 月 23 日 ｜ 開發者：黃欣（Hsin） ｜ 聯絡信箱：<a href="mailto:kashiwaforyt@gmail.com">kashiwaforyt@gmail.com</a></div>
+
+    <p>歡迎使用<strong>《讀欣樹》（DuXinShu Reader，Google Play 應用程式套件代號：<code>com.duxinshu.app</code>）</strong>。我們極為重視您的個人隱私與閱讀資料自主權，本政策說明《讀欣樹》如何處理、保護及讓您完全掌控您的資料。</p>
+
+    <h2>一、本機優先與零伺服器資料收集原則（Local-First &amp; Zero Data Collection）</h2>
+    <ul>
+      <li><strong>無遠端收集伺服器</strong>：《讀欣樹》採「本機優先（Local-First）」架構設計，開發者並未架設任何收集或儲存使用者資料的後端伺服器。</li>
+      <li><strong>不收集、不分享、不出售個人資料</strong>：本應用程式<strong>不會收集、傳輸、分析、分享或向任何第三方出售</strong>您的個人身分資訊、匯入之書籍檔案、書櫃清單、閱讀進度、重點劃線筆記、語音設定或裝置識別碼。</li>
+      <li><strong>零廣告與零追蹤 SDK</strong>：本應用程式不包含任何第三方廣告聯播網或行為追蹤分析 SDK。</li>
+    </ul>
+
+    <h2>二、裝置權限與本機資料處理說明</h2>
+    <ul>
+      <li><strong>檔案匯入（系統檔案選取器 SAF）</strong>：僅於您主動選取電子書檔案（EPUB、TXT、PDF、MOBI、AZW3、CBZ）或自訂字型檔（TTF、OTF）時，讀取您所指定的檔案至應用程式專屬本機儲存空間，不會掃描裝置內其他私人相簿或無關目錄。</li>
+      <li><strong>區域網路無線傳書（選用功能）</strong>：僅在您主動開啟「Wi-Fi 網頁傳書」畫面期間，於區域網路內啟動臨時傳輸服務供您自行上傳書籍，關閉畫面即刻停止。</li>
+    </ul>
+
+    <h2>三、Google 帳號與 Google Drive 雲端同步權限（Google User Data &amp; Limited Use）</h2>
+    <p>當您於應用程式內主動選擇登入 Google 帳號以啟用跨裝置書櫃與筆記同步功能時：</p>
+    <ul>
+      <li><strong>最小必要權限範圍</strong>：本應用程式僅請求非敏感之 <code>https://www.googleapis.com/auth/drive.file</code> 權限（以及基本帳號識別信箱以顯示目前登入身分），<strong>僅能存取由《讀欣樹》本身在您個人 Google 雲端硬碟內建立之專屬資料夾與同步設定檔（<code>讀欣樹/Books</code> 與 <code>讀欣樹/Sync</code>）</strong>，完全無法讀取、瀏覽或修改您 Google 雲端硬碟內的其他私人檔案。</li>
+      <li><strong>端對端直連加密傳輸</strong>：所有同步書籍、閱讀進度與重點筆記均透過 <code>HTTPS / TLS</code> 加密，直接傳輸於「您的裝置 ↔ 您本人的 Google Drive」之間，絕不經過開發者或任何第三方伺服器。</li>
+      <li><strong>本機金鑰安全保護</strong>：OAuth 授權權杖（Token）於您的裝置本機採用 Android Keystore（<code>AES/GCM/NoPadding</code>）硬體加密儲存，並排除於系統自動備份之外。</li>
+      <li><strong>遵守 Google API 有限使用規範（Limited Use Policy）</strong>：《讀欣樹》自 Google API 取得之資訊的使用與傳輸，完全遵守 <a href="https://developers.google.com/terms/api-services-user-data-policy" target="_blank" rel="noopener">Google API 服務使用者資料政策（Google API Services User Data Policy）</a>，包含其中的「有限使用（Limited Use）」規定，絕不用於廣告投放、訓練外部模型或轉交第三方。</li>
+    </ul>
+
+    <h2>四、資料保留與自主刪除方式（Data Retention &amp; Deletion）</h2>
+    <p>由於開發者伺服器不持有任何使用者帳號或個人資料，您擁有 100% 的自主刪除控制權：</p>
+    <ul>
+      <li><strong>刪除本機與雲端同步書籍資料</strong>：您可隨時於《讀欣樹》書櫃對單本或多本書籍執行「徹底刪除（含同步刪除 Google Drive 雲端檔案）」，或直接清除應用程式儲存空間／解除安裝 App 以移除所有本機資料。</li>
+      <li><strong>解除雲端連結與撤銷授權</strong>：您可隨時於 App「設定」頁點擊「登出」清除本機授權憑證，並可前往 <a href="https://myaccount.google.com/permissions" target="_blank" rel="noopener">Google 帳號第三方存取權限管理頁面</a> 撤銷《讀欣樹》存取權，或直接於您本人的 Google Drive 刪除 <code>讀欣樹</code> 資料夾。</li>
+    </ul>
+
+    <h2>五、Google Play 應用程式內購買（In-App Purchases）</h2>
+    <p>本應用程式之「完整買斷版」交易、訂單驗證與官方促銷代碼（Promo Codes）兌換，均完全由 Google Play 官方帳務系統（Google Play Billing）處理。開發者不會接觸、收集或儲存您的信用卡號、銀行帳號或帳單地址。</p>
+
+    <h2>六、兒童隱私保護與政策變更</h2>
+    <p>本應用程式適合各年齡層閱讀使用，且不主動向任何年齡層（含 13 歲以下兒童）收集個人識別資料。若未來因功能演進需修訂本隱私權政策，我們將於本網頁更新內容並標示最新修訂日期。</p>
+
+    <h2>七、聯絡我們（Contact Us）</h2>
+    <p>若您對本隱私權政策或資料保護方式有任何疑問，請透過電子郵件聯繫開發者：</p>
+    <ul>
+      <li>開發者名稱：黃欣（Hsin）</li>
+      <li>聯絡信箱：<a href="mailto:kashiwaforyt@gmail.com">kashiwaforyt@gmail.com</a></li>
+    </ul>
+
+    <h2>八、English Privacy Policy Summary (For Google Play &amp; OAuth Review)</h2>
+    <p><strong>DuXinShu Reader (讀欣樹, package ID: <code>com.duxinshu.app</code>)</strong> is a strictly client-side, local-first Android e-book reader developed by <strong>Hsin (黃欣)</strong>.</p>
+    <ul>
+      <li><strong>Zero Data Collection &amp; Zero Backend Servers</strong>: We do not operate any backend servers to collect, store, process, share, or sell personal data, reading history, e-book files, annotations, or device identifiers. No third-party advertising or analytics tracking SDKs are included.</li>
+      <li><strong>Google Drive Sync &amp; Limited Use Compliance</strong>: When the user optionally enables Google Drive sync, the app requests only the narrow <code>https://www.googleapis.com/auth/drive.file</code> scope (along with basic account email display) to sync books, reading progress, and notes strictly within the app-created folder in the user's own Google Drive over <code>HTTPS/TLS</code>. OAuth tokens are encrypted locally on the device via Android Keystore and excluded from system backups. DuXinShu Reader's use and transfer to any other app of information received from Google APIs will adhere to the <a href="https://developers.google.com/terms/api-services-user-data-policy" target="_blank" rel="noopener">Google API Services User Data Policy</a>, including the Limited Use requirements.</li>
+      <li><strong>Data Deletion &amp; Revocation</strong>: Users can permanently delete local and synced Google Drive files directly inside the app, uninstall the app to erase all local data, sign out in Settings, and revoke access anytime at <a href="https://myaccount.google.com/permissions" target="_blank" rel="noopener">Google Account Permissions</a>.</li>
+      <li><strong>Payments</strong>: All one-time Pro unlock purchases and promo code redemptions are processed exclusively through Google Play Billing.</li>
+      <li><strong>Contact</strong>: For any privacy questions, please contact Hsin (黃欣) at <a href="mailto:kashiwaforyt@gmail.com">kashiwaforyt@gmail.com</a>.</li>
+    </ul>
+
+    <div class="footer">
+      © 2026 讀欣樹（DuXinShu Reader）· 開發者：黃欣 ｜ <a href="./index.html">官方首頁</a> ｜ <a href="./terms.html">服務條款與免責聲明</a>
+    </div>
+  </div>
+</body>
+</html>
